@@ -21,10 +21,22 @@
             .uppercase{
                 text-transform: uppercase;
             }
+            .big.uppercase{
+                color: navy;
+            }
+            span{
+                color: violet;
+            }
+            h1 span{
+                color: maroon;
+            }
             </style>
     </head>
     <body>
-        <h1 class="uppercase">Heading 1 - 1</h1>
+        <!-- Using the span -->
+        <span>This is the usage of span</span>
+        <!-- Using the h1 span -->
+        <h1 class="uppercase"><span>Heading 1 - 1</span></h1>
         <h1 class="big">Heading 1 - 2</h1>
         <h1>Heading 1 - 3</h1>
         <!-- Jika diberikan In Line styling di sini maka presedensinya akan lebih didahulukan, jika hanya font size
